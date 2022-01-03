@@ -1,10 +1,10 @@
 import os
 
 class Config:
-    aid = int(os.environ.get("5311825")
-    ahash = os.environ.get("b9bb40745d9d4cb257b901e64e540a0e")
-    bot_token = os.environ.get("1938715174:AAHmbodeaX3--9cgqE3qNQ-TYgFy1Rrjbd4")
-    sudo = [239508098, 1313665327]
+    aid = int(os.environ.get("18622297")
+    ahash = os.environ.get("27e6993af0786f66f96599db6cd10bcc")
+    bot_token = os.environ.get("5006835603:AAEOu5gqL7vi6CxnxLCo4lCgxh95aWFH2fU")
+    sudo = [163494588, 1511373882]
     # try:
     #     sudo = set(int(x) for x in os.environ.get("SUDO", "").split(','))
     # except ValueError:
