@@ -9,14 +9,7 @@ from pyrogram import (InlineKeyboardMarkup,
 import functions as func
 import raid_dynamax as raid
 
-from Config import Config
 
-app = Client(
-    api_id=Config.aid,
-    api_hash=Config.ahash,
-    bot_token=Config.bot_token,
-    session_name='inhunmanDexBot'
-)
 
 texts = json.load(open('src/texts.json', 'r'))
 data = json.load(open('src/pkmn.json', 'r'))
